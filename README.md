@@ -209,3 +209,19 @@ MediLink est une application de prise de rendez-vous médicaux pensée pour êtr
 Ce projet illustre une démarche complète de conception logicielle, depuis l’analyse du besoin jusqu’à la maintenance, en passant par la modélisation, le développement, les tests et le déploiement.
 
 Il met également en évidence l’importance d’une bonne conception avant toute implémentation technique.
+
+## 11. Architecture du système
+
+### Architecture en N-tier
+
+Ce schéma représente une architecture en couches. L'application est organisée en plusieurs niveaux : présentation, API, logique métier, accès aux données et base de données.
+
+![Architecture N-tier](docs/diagrammes/architecture-n-tier.png)
+
+---
+
+### Architecture en microservices
+
+Ce schéma représente une architecture distribuée. L'application est découpée en plusieurs microservices indépendants, chacun responsable d'un domaine métier spécifique.
+
+![Architecture microservices](docs/diagrammes/architecture-microservices.png)
